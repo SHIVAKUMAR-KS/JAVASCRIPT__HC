@@ -3,7 +3,8 @@ const repoCount = 50
 
 //console.log(name + repoCount + " Value");
 
-//console.log('Hello my name is ${name} and my repo count is ${repoCount}');
+console.log(`Hello my name is ${name} and my  current repoCount is ${repoCount}`);//Hello my name is shiva and my current repocount is 50
+
 
 const gameName = new String('hiteshhc')
 
@@ -35,3 +36,10 @@ const url = "https://hitesh.com/hitesh%20choudhary"
 // console.log(url.includes('suresh'));//false
 
 // console.log(gameName.split('_'));
+
+
+
+console.log(gameName.concat("sir"));//hiteshchsir
+
+const str = "apple,banana,orange"
+console.log(str.split(","));//['apple' , 'banana' , 'orange']
