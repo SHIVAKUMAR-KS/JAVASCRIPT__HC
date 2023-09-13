@@ -41,3 +41,33 @@ console.log(typeof outsideTemp);//object
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+//***************memory********************
+
+//stack (Primitive) ,Heap (Non-Primitive or referernce)
+
+let myYoutubename = "shivakumardotcom"
+
+let anothername  = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+        email : "user@google.com",
+        upi : "user@ybl"
+}
+
+let userTwo  = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+//conclusion from stack we can take copy of dataa and from heap we can take only reference(we can change anything in real data)
